@@ -9,9 +9,10 @@ import Profile from './Pages/Profile'
 import Notification from './Pages/Notification'
 
 
-const App = () => {
+const App = () => { 
 
   const {userData} = useContext(userContextData);
+
   return (
     <>
       <Routes>
