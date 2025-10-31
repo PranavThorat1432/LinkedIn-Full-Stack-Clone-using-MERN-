@@ -35,8 +35,8 @@ export const signup = async (req, res) => {
         let token = await genToken(user._id);
         res.cookie('token', token, {
             httpOnly: true,
-            maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
-            sameSite: 'strict',
+            maxAge: 7 * 24 * 60 * 60 * 1000,
+            sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
             secure: process.env.NODE_ENV === 'production'
         });
 
@@ -85,7 +85,10 @@ export const login = async (req, res) => {
 
 export const logout = async (req, res) => {
     try {
-        res.clearCookie('token');
+        res.clearCookie('token', {
+            sameSite: process.env.NODE_ENV === 'production' ? 'none' : 'lax',
+            secure: process.env.NODE_ENV === 'production'
+        });
         res.status(200).json({message: 'Logged out successfully!'});
         
     } catch (error) {
