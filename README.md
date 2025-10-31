@@ -164,6 +164,7 @@ npm start
 ## 📸 Screenshots
 
 <div align="center">
+
   ![1](https://github.com/user-attachments/assets/8b9be129-cab2-495f-8dc3-a35fe03a6f88)
 
   ![2](https://github.com/user-attachments/assets/b012f103-19d6-4bed-a9df-2ff407a8284f)
