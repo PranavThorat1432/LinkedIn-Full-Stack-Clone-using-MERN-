@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import linkedin from '../assets/Linkedin_2021.svg';
+import linkedin from '../assets/LinkedIn_2021.svg';
 import { useNavigate } from 'react-router-dom';
 import { authContextData } from '../Context/AuthContext';
 import axios from 'axios';
