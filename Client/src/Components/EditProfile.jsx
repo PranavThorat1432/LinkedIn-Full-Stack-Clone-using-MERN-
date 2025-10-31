@@ -2,7 +2,7 @@ import React, { useContext, useRef, useState } from 'react';
 import { RxCross1, RxPlus } from "react-icons/rx";
 import { FiCamera, FiX, FiEdit2, FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
-import { userContextData } from '../Context/userContext';
+import { userContextData } from '../Context/UserContext';
 import profilepic from '../assets/profilepic.png';
 import axios from 'axios';
 import { authContextData } from '../Context/AuthContext';

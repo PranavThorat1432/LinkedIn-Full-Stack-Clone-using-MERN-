@@ -4,7 +4,7 @@ import { IoSearch, IoNotificationsSharp, IoClose } from "react-icons/io5";
 import { FaUserGroup } from "react-icons/fa6";
 import { IoMdHome } from "react-icons/io";
 import profilepic from '../assets/profilepic.png';
-import { userContextData } from '../Context/userContext';
+import { userContextData } from '../Context/UserContext';
 import { authContextData } from '../Context/AuthContext';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';

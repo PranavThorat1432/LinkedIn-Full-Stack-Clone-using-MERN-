@@ -15,7 +15,7 @@ import { IoMdClose } from 'react-icons/io';
 import Navbar from '../Components/Navbar';
 import { authContextData } from '../Context/AuthContext';
 import profilepic from '../assets/profilepic.png';
-import { userContextData } from '../Context/userContext';
+import { userContextData } from '../Context/UserContext';
 
 
 

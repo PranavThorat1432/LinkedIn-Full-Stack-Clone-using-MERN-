@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState, useCallback } from 'react';
-import { userContextData } from '../Context/userContext';
+import { userContextData } from '../Context/UserContext';
 import profilepic from '../assets/profilepic.png';
 import moment from 'moment';
 import { BiLike, BiRepost } from 'react-icons/bi';

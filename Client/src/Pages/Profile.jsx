@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
-import { userContextData } from '../Context/userContext';
+import { userContextData } from '../Context/UserContext';
 import { authContextData } from '../Context/AuthContext';
 import profilepic from '../assets/profilepic.png';
 import { FiCamera, FiLink, FiMapPin, FiBriefcase, FiAward, FiBook, FiUserPlus } from 'react-icons/fi';

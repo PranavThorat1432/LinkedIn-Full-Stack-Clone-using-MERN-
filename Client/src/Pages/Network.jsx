@@ -10,7 +10,7 @@ import { IoCheckmarkCircleOutline, IoCloseCircleOutline } from 'react-icons/io5'
 import Navbar from '../Components/Navbar';
 import { authContextData } from '../Context/AuthContext';
 import profilepic from '../assets/profilepic.png';
-import { userContextData } from '../Context/userContext';
+import { userContextData } from '../Context/UserContext';
 
 const Network = () => {
     const { serverUrl } = useContext(authContextData);

@@ -3,7 +3,7 @@ import linkedin from '../assets/Linkedin_2021.svg';
 import { useNavigate } from 'react-router-dom';
 import { authContextData } from '../Context/AuthContext';
 import axios from 'axios';
-import { userContextData } from '../Context/userContext';
+import { userContextData } from '../Context/UserContext';
 import { FaEnvelope, FaLock, FaEye, FaEyeSlash } from 'react-icons/fa';
 
 const Login = () => {
