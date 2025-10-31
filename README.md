@@ -164,10 +164,15 @@ npm start
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x450/2d3748/ffffff?text=Home+Feed" alt="Home Feed" width="400"/>
-  <img src="https://via.placeholder.com/800x450/2d3748/ffffff?text=Profile+Page" alt="Profile Page" width="400"/>
-  <img src="https://via.placeholder.com/800x450/1a202c/ffffff?text=Dark+Mode" alt="Dark Mode" width="400"/>
-  <img src="https://via.placeholder.com/800x450/ffffff/000000?text=Light+Mode" alt="Light Mode" width="400"/>
+  ![1](https://github.com/user-attachments/assets/8b9be129-cab2-495f-8dc3-a35fe03a6f88)
+
+  ![2](https://github.com/user-attachments/assets/b012f103-19d6-4bed-a9df-2ff407a8284f)
+
+  ![3](https://github.com/user-attachments/assets/056d802e-00bd-40d9-a7a2-990820eb603d)
+
+  ![4](https://github.com/user-attachments/assets/68b1a2ac-91ef-4e57-a71d-7a618df6724b)
+
+  
 </div>
 
 ---
