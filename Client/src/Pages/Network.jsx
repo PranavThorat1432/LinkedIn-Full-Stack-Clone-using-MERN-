@@ -37,8 +37,8 @@ const Network = () => {
             });
             setConnections(requests.data);
             
-            // Fetch suggested connections (mock data for now)
-            const suggestionsRes = await axios.get(`${serverUrl}/api/connection/suggestions`, {
+            // Fetch suggested users
+            const suggestionsRes = await axios.get(`${serverUrl}/api/user/suggestedUsers`, {
                 withCredentials: true
             });
             setSuggestions(suggestionsRes.data || []);
@@ -74,7 +74,7 @@ const Network = () => {
     
     const handleConnect = async (userId) => {
         try {
-            await axios.post(`${serverUrl}/api/connection/connect/${userId}`, {}, {
+            await axios.post(`${serverUrl}/api/connection/send/${userId}`, {}, {
                 withCredentials: true
             });
             // Update UI to show pending status
