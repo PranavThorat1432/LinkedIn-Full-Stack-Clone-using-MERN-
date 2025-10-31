@@ -3,7 +3,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom';
 import AuthContext from './Context/AuthContext.jsx';
-import UserContext from './Context/userContext.jsx';
+import UserContext from './Context/UserContext.jsx';
 import { SocketProvider } from './Context/SocketContext.jsx';
 
 
