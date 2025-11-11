@@ -80,7 +80,7 @@ export const acceptConnection = async (req, res) => {
         connection.status = 'accepted';
         let notification = await Notification.create({
             receiver: connection.sender,
-            type: 'connectionAccepted',
+            type: 'connection',
             relatedUser: connection.sender._id,
         });
         await connection.save();
